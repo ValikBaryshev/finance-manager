@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 10px 10px 0px 0px;
+  overflow-y: auto;
+  position: relative;
+}
+
+
+canvas {
+  margin-top: 50px;
+}
+
+
+.two-containers {
+  display: flex;
+}
+
+#statistics-modal {
+  position: absolute;
+  right: -220px;
+  right: -220px;
+  top: 51px;
+  display: none;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 220px;
+  height: auto;
+}
+
+canvas {
+  margin-top: 15px;
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+
+.operation-item {
+  margin-top: 2.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+
+
+.balance-div {
+  display: flex;
+  justify-content: end;
+  padding: 10px 10px 0px 0px;
+  position: absolute;
+  right: 10px;
+  top: 52px;
+  width: fit-content;
+}
+
+
+
+#close-stats-btn {
+  width: 21px;
+}
+
+.add-form {
+  display: flex;
+  border: 2px solid black;
+  width: 500px;
+  height: 50px;
+  margin: 0 auto;
+  border-bottom: none;
+  margin-top: 50px;
+}
+
+#filter-form {
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; /* или по желанию */
+  align-items: center;
+}
+
+.add-form input,
+select {
+  width: 4.5rem;
+  height: 1.5rem;
+}
+
+#add {
+  width: 3.7rem;
+  height: 1.5rem;
+}
+
+.add-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 10px;
+}
+
+#filter-category {
+  height: 19.2px;
+}
+
+#filter-date-from {
+  height: 19.2px;
+}
+
+#filter-date-to {
+  height: 19.2px;
+}
+
+.delete-btn {
+  margin-left: 10px;
+  background: #e63946;
+  color: white;
+  border: none;
+  padding: 2px 6px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.delete-btn:hover {
+  background: #d62839;
+
+}
+
